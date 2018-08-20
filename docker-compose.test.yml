@@ -1,8 +1,0 @@
-sut:
-  build: .
-  command: sh /usr/src/app/run_tests.sh
-  environment:
-    - SOURCE_BRANCH
-    - COMMIT_MSG
-    - DOCKER_REPO
-    - IMAGE_NAME
